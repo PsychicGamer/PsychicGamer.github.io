@@ -11,7 +11,6 @@ let randLoveText = [
     "I love every moment spent with you, your love has touched my heart.",
     "Every single second my love for you grows.",
     "I want you. All of you. Your flaws. Your mistakes. Your imperfections. I want you, and only you.",
-    "Romance is the glamour which turns the dust of everyday life into a golden haze.",
     "Lucky me, for I was there the day I met you. You are the greatest woman in all the universe.",
     "Just seeing your face brightens even the darkest of my days. Your light radiantly and adds love in my life. I love you!",
     "No matter what has happened. No matter what you've done. No matter what you will do. I will always love you. I swear it.",
@@ -27,10 +26,10 @@ const loveTextsSent = []
 
 document.getElementById("heart").addEventListener("click", () => {
     
-    let randomNumber = Math.round(Math.random() * 15)
+    let randomNumber = Math.round(Math.random() * 14)
     while (!isLastText) {
         if(randomNumber == lastTextSent) {
-            randomNumber = Math.round(Math.random() * 15)
+            randomNumber = Math.round(Math.random() * 14)
         } else {
             isLastText = true
         }
