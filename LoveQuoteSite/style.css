@@ -2,7 +2,7 @@ body {
     background-color: black;
     padding: auto;
     margin: auto;
-
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -78,32 +78,67 @@ i {
     }
 }
 
-/*
-@media screen and (min-width: 300px) and (max-width: 500px) {
- p {
-    font-size: 30px;
- }
- 
- .text {
-    top: 106%;
- }
-}
-
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (min-width: 0px) and (max-width: 340px) {
     p {
         font-size: 30px;
-     }
+    }
+    
+    i {
+        margin: 5px;
+    }
 
+    #mHeart {
+        font-size: 25px;
+    }
+    
+    #lHeart, #rHeart {
+        font-size: 12px;
+    }
+    
     .text {
         top: 121%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 500px) {
+    p {
+        font-size: 30px;
+    }
+    
+    i {
+        margin: 10px;
+    }
+
+    #mHeart {
+        font-size: 50px;
+    }
+    
+    #lHeart, #rHeart {
+        font-size: 25px;
+    }
+    
+    .text {
+        top: 106%;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 780px) {
     p {
         font-size: 30px;
-     }
+    }
+    
+    i {
+        margin: 15px;
+    }
 
+    #mHeart {
+        font-size: 50px;
+    }
+    
+    #lHeart, #rHeart {
+        font-size: 25px;
+    }
+    
     .text {
         top: 111%;
     }
@@ -112,8 +147,8 @@ i {
 @media screen and (min-width: 780px) and (max-width: 930px) {
     p {
         font-size: 40px;
-     }
-
+    }
+    
     .text {
         top: 110%;
     }
