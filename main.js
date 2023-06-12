@@ -4,7 +4,6 @@ let randLoveText = [
     "If I had a flower for every time I thought of you, I could walk in my garden forever.", 
     "When you are with me, you make me perfect. I love you.",
     "You give me the kind of feelings people write novels about.", 
-    "You give me the kind of feelings people write novels about.", 
     "Dreaming of you keeps me asleep. Being with you keeps me awake.",
     "You can always feel safe in my arms I'll never let you go.",
     "I am in love with your smile, your voice, your body, your laugh, your eyes. But most of all, I am in love with you.",
@@ -28,10 +27,10 @@ const loveTextsSent = []
 
 document.getElementById("heart").addEventListener("click", () => {
     
-    let randomNumber = Math.round(Math.random() * 16)
+    let randomNumber = Math.round(Math.random() * 15)
     while (!isLastText) {
         if(randomNumber == lastTextSent) {
-            randomNumber = Math.round(Math.random() * 16)
+            randomNumber = Math.round(Math.random() * 15)
         } else {
             isLastText = true
         }
