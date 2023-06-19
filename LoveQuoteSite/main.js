@@ -23,6 +23,7 @@ let isLastText = false
 const loveTextsSent = []
 
 document.getElementById("heart").addEventListener("click", () => {
+    document.getElementById("hint").innerText = "";
     
     let randomNumber = Math.round(Math.random() * 13)
     while (!isLastText) {
